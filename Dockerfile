@@ -1,5 +1,7 @@
 FROM nginx:1.25.2
 
+LABEL org.opencontainers.image.source https://github.com/nu12/netutils
+
 RUN apt-get update \
  && apt-get upgrade -y \
  && apt-get install --no-install-recommends -y \
