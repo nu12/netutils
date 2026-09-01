@@ -1,6 +1,6 @@
-FROM nginx:1.31.3
+FROM nginx:1.31.4
 
-LABEL org.opencontainers.image.source https://github.com/nu12/netutils
+LABEL org.opencontainers.image.source=https://github.com/nu12/netutils
 
 RUN apt-get update \
  && apt-get upgrade -y \
