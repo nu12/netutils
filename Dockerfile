@@ -1,4 +1,4 @@
-FROM nginx:1.31.4
+FROM nginx:1.31.5
 
 LABEL org.opencontainers.image.source=https://github.com/nu12/netutils
 
